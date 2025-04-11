@@ -4,17 +4,15 @@ import 'package:get/get.dart';
 import 'pageone.dart';
 import 'pagethree.dart';
 import 'pageone.dart';
-import "package:getx_practice/pagetwo.dart";
-// get to push
-// get back pop
-// get off push with replacment 
-// getoffall push and remove until and it removes all of the pages inside the stack
-class Home extends StatelessWidget {
-  const Home({super.key});
+import "package:getx_practice/route_managment/pagetwo.dart"; 
+
+
+class HomeRouteManagment extends StatelessWidget {
+  const HomeRouteManagment({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+   return Scaffold(
    appBar: AppBar(title: const Text("home")),
       body: Center(
         child: Column(
