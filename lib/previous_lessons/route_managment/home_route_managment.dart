@@ -4,7 +4,7 @@ import 'package:get/get.dart';
 import 'pageone.dart';
 import 'pagethree.dart';
 import 'pageone.dart';
-import "package:getx_practice/route_managment/pagetwo.dart"; 
+import "package:getx_practice/previous_lessons/route_managment/pagetwo.dart"; 
 
 
 class HomeRouteManagment extends StatelessWidget {
